@@ -1,0 +1,25 @@
+/* Lungo handmaded by TAPQUO, a new mobile user experiences company located in Bilbao, Spain */
+/* tapquo.com */
+/* humanstxt.org */
+
+/* TEAM */
+    Chef: Javi Jiménez Villar
+    Contact: javi [at] tapquo.org
+    Twitter: @soyjavi
+    From: Bilbao, Bizkaia, Spain
+
+    Developer: Ignacio Olalde
+    Twitter: @piniphone
+    From: Bilbao, Bizkaia, Spain
+
+/* THANKS */
+    Developer: Guillermo Pascual
+    Twitter: @pasku1
+    From: Madrid, Madrid, Spain
+
+/* SITE */
+    Last update: 2013/01/25
+    Language: English
+    Doctype: HTML5
+    Components: TukTuk, jQuery
+    Software: Sublime Text, Transmit

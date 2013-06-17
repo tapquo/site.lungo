@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://lungo.tapquo.com/sitemap.xsl"?><!-- generator="wordpress/3.2.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.4" -->
+<!-- generated-on="August 24, 2011 9:15 am" -->
+<!-- Debug: Total comment count: 150 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://lungo.tapquo.com/</loc>
+		<lastmod>2012-09-01T09:09:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: Priority report of postID 644: Comments: 0 of 150 = 0 points -->
+	<url>
+		<loc>http://lungo.tapquo.com/docs/designers</loc>
+		<lastmod>2011-12-05T09:09:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 637: Comments: 3 of 150 = 0 points -->
+	<url>
+		<loc>http://lungo.tapquo.com/docs/developers</loc>
+		<lastmod>2011-12-05T09:09:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 625: Comments: 6 of 150 = 0 points -->
+	<url>
+		<loc>http://lungo.tapquo.com/video/</loc>
+		<lastmod>2011-12-05T09:09:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

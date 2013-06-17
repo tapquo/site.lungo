@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://lungo.tapquo.com/sitemap.xml
