@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="stylesheets/tuktuk.lungo.theme.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
 
+<body data-page="tuktuk">
+<!-- ========================== Header ========================== -->
 <header>
     <div class="row">
         <div class="offset_1 column_4">
@@ -24,25 +25,23 @@
         </div>
         <nav class="column_6 align right">
             <a href="#downloads">Download</a>
-            <a href="https://github.com/tapquo/Lungo.js/tree/master/docs">Documentation</a>
             <a href="#">Sign in</a>
             <a href="#" class="icon question-sign"></a>
             <a href="#" class="icon github"></a>
-            <a href="#" class="icon twitter"></a>
         </nav>
     </div>
 </header>
 
-<!-- ========================== HEADER ========================== -->
+<!-- ========================== Device ========================== -->
 <section class="front">
     <div class="row">
-
         <div class="offset_4 column_4 phone">
             <iframe src="http://lungo.tapquo.com/example/index.html"></iframe>
         </div>
     </div>
 </section>
 
+<!-- ========================== Features ========================== -->
 <section class="padding">
     <div class="row">
         <div class="offset_1 column_10 text ">
@@ -51,57 +50,62 @@
     </div>
     <div class="row ">
         <div class="offset_1 column_5 feature">
-            <!-- <img src="/images/home-feature-semantic.svg"> -->
             <div class="icon globe"></div>
             <h4>Optimized</h4>
-            <p>Lungo supports open web standards, such as HTML5, CSS3 and JavaScript. It brings consistent browser environment across mobiles, tvs and desktop devices.</p>
+            <small>Lungo supports open web standards, such as HTML5, CSS3 and JavaScript. It brings consistent browser environment across mobiles, tvs and desktop devices.</small>
         </div>
 
         <div class="column_5 feature">
-            <!-- <img src="/images/home-feature-semantic.svg"> -->
             <div class="icon wrench"></div>
-            <h4>Powerfull</h4>
-            <p>
-                There are many ways to develop apps, and not always is optimized. Lungo offers you a robust API so you can have complete control of everything that happens in your App.
-            </p>
+            <h4>Powerfull JavaScript API</h4>
+            <small>
+                There are many ways to develop apps, and not always is optimized. Lungo offers you a robust API so you can have complete control of your app.
+            </small>
         </div>
     </div>
     <div class="row">
         <div class="offset_1 column_5 feature">
-            <!-- <img src="/images/home-feature-semantic.svg"> -->
             <div class="icon bolt"></div>
             <h4>Lightweight & Scalable</h4>
-            <p>Call symbols with Unicode® values. Symbolsets are semantically mapped with the Unicode Standard.</p>
+            <small>Forget heavy and old frameworks, you develop apps for actual devices. Take advantage of it! and let Lungo offers you a simple and fun way to create.</small>
         </div>
 
         <div class="column_5 feature">
-            <!-- <img src="/images/home-feature-semantic.svg"> -->
             <div class="icon mobile-phone"></div>
             <h4>Real Cross-Device</h4>
-            <p>
-                Is known that create apps for each platform is hard, this situation is increased by the arrival of new devices. Lungo will suit all of them creating a unique and amazing UX.
-            </p>
+            <small>
+                Create apps for each platform is hard, this situation is increased by the arrival of new devices. Lungo will suit all of them creating a unique and amazing UX.
+            </small>
         </div>
     </div>
 </section>
 
 <!-- ========================== Downloads ========================== -->
-<section id="downloads" class="padding bck light">
-    <div class="row text center margin-bottom">
+<section id="downloads" class="padding bck dark text center">
+    <div class="row margin-bottom">
         <div class="column_10 offset_1">
             <h2 class="text thin color theme">Downloads</h2>
-            <h3 class="text thin">Sounds cool? Checkout v2.1</h3>
+            <h3>Available for iOS / Android / Blackberry & FirefoxOS</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset_2 column_8">
+            <a href="https://github.com/TapQuo/package-lungo/archive/2.1.0.zip" class="button anchor download"><span class="icon download"></span>Download</a>
         </div>
     </div>
 
-    <div class="row text center book">
-        <div class="offset_2 column_4 ">
-            <a href="https://github.com/TapQuo/package-lungo/archive/2.1.0.zip" class="button large anchor "><span class="icon download"></span>Download .Zip File</a>
-            <p class="margin-top block">Available for iOS / Android / Blackberry / FirefoxOS</p>
-        </div>
-        <div class="column_4">
+    <div class="row">
+        <div class="offset_2 column_4">
             <a href="https://github.com/TapQuo/Lungo.js" class="button large anchor secondary"><span class="icon github"></span>Source on Github</a>
-            <p class="margin-top block">Join our <a href="https://groups.google.com/forum/#!forum/lungojs" class="text big normal">Google Group</a> to improve</p>
+            <p class="margin-top">
+                <iframe src="http://ghbtns.com/github-btn.html?user=tapquo&amp;repo=lungo.js&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=tapquo&amp;repo=lungo.js&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+            </p>
+        </div>
+
+        <div class=" column_4">
+            <a href="http://lungo.tapquo.com/docs" class="button secondary large anchor"><span class="icon book"></span>Documentation</a>
+            <small class="margin-top block">Available in <a href="http://lungo.tapquo.com/docs/es" class="text bold color theme">Spanish</a> and a <a href="https://groups.google.com/forum/#!forum/lungojs" class="text bold">Google Group</a>.</small>
         </div>
     </div>
 </section>
@@ -115,9 +119,9 @@
          </div>
      </div>
      <br/>
-    <div class="row ">
-            <div class="column_3 offset_3 text center white">
-                <img src="images/javi.jpg" class="responsive rounded block margin-bottom">
+    <div class="row">
+            <div class="offset_3 column_3 text center white">
+                <img src="images/javi.jpg" class="responsive block margin-bottom">
                 <a href="https://twitter.com/soyjavi" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @soyjavi</a>
                 <small class="text book justify block margin-top">
                     Javi Jimenez is the CTO and co-founder at <a href="http://tapquo.com" class="text book">tapquo</a>. A restless mind that strives for continuous improvement, able to create frameworks like <a href="http://lungo.tapquo.com" class="text book">Lungo</a>, <a href="http://quojs.tapquo.com" class="text book">QuoJS</a> or <a href="http://monocle.tapquo.com" class="text book">Monocle</a> used by thousands of developers.
@@ -133,6 +137,35 @@
            </div>
         </div>
     </section>
+
+    <footer class="bck dark padding text color white">
+        <div class="row">
+            <div class="offset_1 column_4">
+                <p class="text normal">Handcrafted with <a href="http://tuktuk.tapquo.com">tuktuk</a> by <a href="http://tapquo.com" class="display inline"><img src="images/tapquo.png"/></a></p>
+                <small class="text thin">We're a  user experiences company located in <span class="text normal">Bilbao</span>, ES.</small>
+            </div>
+            <div class="column_6 text right">
+
+                <g:plusone size="medium"></g:plusone>
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
+
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lungo.tapquo.com" data-text="A #HTML5 framework for developers who want to design, build and share cross device #apps." data-lang="en" data-related="lungojs" data-dnt="true" data-count="horizontal">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <div class="fb-like" data-href="http://lungojs.tapquo.com" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
 
     <div id="info" data-tuktuk="modal" class="column_7">
         <header class="display block margin-bottom">
@@ -154,34 +187,6 @@
         </article>
     </div>
 
-    <footer class="bck dark padding text color white">
-        <div class="row">
-            <div class="column_4">
-                <p class="text normal">Handcrafted with <a href="http://tuktuk.tapquo.com">tuktuk</a> by <a href="http://tapquo.com" class="display inline"><img src="images/tapquo.png"/></a></p>
-                <small class="text thin">We're a  user experiences company located in <span class="text normal">Bilbao</span>, ES.</small>
-            </div>
-            <div class="column_8 text right">
-                <a href="https://github.com/TapQuo/Lungo.js" class="icon github"></a>
-            <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flungo.tapquo.com%2F&text=@lungojs a framework for developers who want to design, build and share cross device apps" target="_blank" class="icon twitter"></a>
-
-                <g:plusone size="medium"></g:plusone>
-                <script type="text/javascript">
-                  (function() {
-                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    po.src = 'https://apis.google.com/js/plusone.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                  })();
-                </script>
-
-                <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="lungojs">&nbsp;</a>
-                <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-
-                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-                <div class="fb-like" data-href="http://lungojs.tapquo.com" data-send="false" data-layout="button_count" data-show-faces="false"></div>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript">
