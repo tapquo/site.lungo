@@ -1,0 +1,119 @@
+@import "__init.styl"
+
+header
+  HEIGHT = 80px
+
+  position: fixed
+  width: 100%
+  z-index: 1980
+  height: HEIGHT
+  background-color: #fff
+
+  transition background-color 1000ms
+
+  &, & > *
+    line-height: HEIGHT
+
+
+  & nav a
+    opacity: 0.8
+    font-weight: 400
+    &:not(.icon)
+      font-size: 1.1em
+      padding-bottom: 0.25em
+      transition-property box-shadow
+      transition-duration 300ms
+    &.icon
+      font-size: 1.5em
+    &:hover, &:active
+      opacity: 1
+      &:not(.icon)
+        box-shadow: 0 2px darken(THEME, 50%)
+
+  & .logo
+    height: 44px
+    margin-top: 18px
+    background: url("../images/logo_header.png") no-repeat
+    background-size: auto 100%
+
+  &.fixed
+    position: fixed
+    background-color: rgba(0,0,0,0.2)
+    &.opacity
+      background-color: THEME
+      box-shadow: 0 2px rgba(0,0,0,0.1)
+
+    & nav a
+      color: #fff !important
+
+    & .logo
+      background: url("../images/logo.png") no-repeat
+      background-size: auto 100%
+
+section
+
+  &.front
+    padding: 7em 0 14em 0
+    background: #111 url("../images/bck_hands.jpg") no-repeat center center
+    background-size: cover
+
+    & .phone
+      background-image: url("../images/phone.png")
+      height: 613px
+      width: 339px
+      & > iframe
+        position: relative
+        top: 38px
+        left: 20px
+        width: 300px
+        height: 490px
+
+    & h3
+      font-weight: 100
+      margin-bottom: 2em
+
+    & h5
+      font-weight: bold
+
+  & h1
+    font-size: 3.75em
+    margin-bottom: 1em
+    & strong
+      font-weight: 300 !important
+
+  & .feature
+    position: relative
+    & > img
+      position: absolute
+
+    & > .icon
+      THEME = darken(THEME, 5%)
+      SIZE = 108px
+      position: absolute
+      width: SIZE
+      height: SIZE
+      background-color: THEME
+      border-radius: (SIZE / 2)
+      font-size: (SIZE/ 1.66)
+      line-height: (SIZE / 1.05)
+      text-align: center
+      color: lighten(THEME, 100%)
+      box-shadow inset 0 0 0 0.125em rgba(0,0,0,0.1)
+      text-shadow 0 0.05em 0 rgba(0,0,0,0.1)
+    & > h4, p
+      padding-left: 35%
+      padding-right: 5%
+
+    & > h4
+      margin-bottom: 0.5em
+    & > p
+      font-size: 1.1em
+      margin-bottom: 2.5em
+
+
+footer
+  & img
+    position: relative
+    top: 4px
+    left: 2px
+    height: 16px
