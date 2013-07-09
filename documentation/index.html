@@ -4,9 +4,9 @@
   <meta charset='utf-8'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  <title>Lungo</title>
+  <title>Lungo - Documentation</title>
   <link  href='http://rstacruz.github.io/flatdoc/v/0.8.0/theme-white/style.css' rel='stylesheet'>
-  <link rel="stylesheet" href="stylesheets/tuktuk.lungo.theme.css">
+  <link rel="stylesheet" href="../stylesheets/tuktuk.lungo.theme.css">
   <meta content="Lungo" property="og:title">
   <meta content="Lungo description goes here." name="description">
 </head>
@@ -15,7 +15,7 @@
     <div class="title-area title-card" >
         <div class="in">
           <div class="headline">
-            <img src="images/logo.png" />
+            <img src="../images/logo.png" />
             <h5><span>Documentation</span></h5>
           </div>
         </div>
@@ -32,8 +32,6 @@
     <div class='right'>
       <!-- GitHub buttons: see http://ghbtns.com -->
       <iframe src="http://ghbtns.com/github-btn.html?user=soyjavi&amp;type=follow&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
-
-
       <iframe src="http://ghbtns.com/github-btn.html?user=tapquo&amp;repo=lungo.js&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
       <iframe src="http://ghbtns.com/github-btn.html?user=tapquo&amp;repo=lungo.js&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
     </div>
@@ -42,7 +40,7 @@
   <div class='content-root'>
     <div class='menubar fixe-d'>
         <div class="section">
-            <a class="big button" href="https://raw.github.com/rstacruz/flatdoc/gh-pages/templates/template.html" target="_blank">Download</a>
+            <a class="big button" href="https://github.com/tapquo/package-lungo/archive/2.2.0.zip">Download</a>
         </div>
       <div class='menu section' role='flatdoc-menu'></div>
     </div>
@@ -55,11 +53,8 @@
   <script src='http://rstacruz.github.io/flatdoc/v/0.8.0/flatdoc.js'></script>
   <script src='http://rstacruz.github.io/flatdoc/v/0.8.0/theme-white/script.js'></script>
   <script>
-    // Flatdoc.run({
-    //   fetcher: Flatdoc.github('tapquo/lungo.js')
-    // });
     Flatdoc.run({
-      fetcher: Flatdoc.file('readme.md')
+      fetcher: Flatdoc.github('tapquo/lungo.js')
     });
   </script>
 </body>
